@@ -4,35 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучасна пекарня</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
     <header>
         <nav>
-        <img src="./images/logo.svg" alt="logo of modern bakery">
+            <a href="./index.html">
+                <img src="./images/logo.svg" alt="logo of modern bakery">
+            </a>
          <ul>
-            <li><a href="#">Наші традиції</a></li>
-            <li><a href="#">Шеф-кухарі</a></li>
-            <li><a href="#">Формати</a></li>
-            <li><a href="#">Контакти</a></li>
+            <li><a class="link" href="#traditions-section">Наші традиції</a></li>
+            <li><a class="link" href="#chefs-section">Шеф-кухарі</a></li>
+            <li><a class="link" href="#format-section">Формати</a></li>
+            <li><a class="link" href="#contact-section">Контакти</a></li>
          </ul>
         </nav>
-        <button type="button">Замовити дзвінок</button>
-    </heder>
+        <button class="button" type="button">Замовити дзвінок</button>
+    </header>
     <main>
         <section>
-            <h1>Сучасна пекарня</h1>
+            <h1 class="hero-title"> <span class="accent">Сучасна</span> пекарня</h1>
         </section>
-        <section>
-            <ul>
+        <section id="traditions-section">
+            <ul class="advantages-list">
                 <li>Великий попит на ринку</li>
                 <li>Доступні за бюджетом формати</li>
                 <li>Досвідчена управлінська команда</li>
             </ul>
-            <h2>Новий формат традицій</h2>
+            <h2 class="section-title">Новий формат традицій</h2>
             <p>
              <span>shop bakery</span> — це пекарня, яка взяла все найкраще,
              і зберегла смак традиційної випічки та натуральність інгредієнтів.
             </p>
+            <p>
                 Ми працюємо як найвідоміші мережі —
                 <span>5 хвилин і замовлення готове.</span>
                 А ще у наших пекарень стильний дизайн
@@ -40,8 +46,8 @@
             </p>
             <img src="./images/baker-man.jpg" alt="baker-man look at the bread">
         </section>
-        <section>
-            <h2>Наші найкращі шеф -кухарі</h2>
+        <section id="chefs-section">
+            <h2 class="section-title">Наші найкращі <span class="accent">шеф-кухарі</span></h2>
             <ul>
                 <li>
             <article>
@@ -62,25 +68,36 @@
         </li>
     </ul>
         </section>
-        <section>
-            <h2>Формати</h2>
+        <section id="format-section">
+            <h2 class="section-title">Формати</h2>
+    <ul>
         <li>
             <article>
-            <h3 lang="en">Walrus</h3>
+                <h3 lang="en">Walrus</h3>
             </article>
         </li>
-        <li><article>
-            <h3 lang="en">Horseshoe</h3>
-        </article>
+        <li>
+            <article>
+                <h3 lang="en">Horseshoe</h3>
+            </article>
         </li>
         <li>
             <article>
                 <h3 lang="en">Handlebar</h3>
             </article>
         </li>
+    </ul>
         </section>
-        <section>
-            <h2>Приєднуйся до мережі пекарень</h2>
+        <section id="contact-section">
+            <h2 class="section-title" >Приєднуйся до мережі пекарень</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1636289098733!2d30.4912733!3d50.4566776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2sSichovykh%20Striltsiv%20St%2C%2054%2C%20Kyiv%2C%2002000!5e0!3m2!1sen!2sua!4v1731699662948!5m2!1sen!2sua"
+                width="603" 
+                height="595" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </section>
     </main>
     <footer>
@@ -111,52 +128,7 @@
             </ul>
             <a href="#" target="_blank">Політика конфіденційності</a>
             <p>&copy; 2022 Дані захищені</p>
+        </address>
     </footer>
 </body>
-<!--test table-->
-<!-- <table>
-    <caption>Employee Salary</caption>
-    <thead>
-        <tr>
-        <th>No.</th>
-        <th>Full Name</th>
-        <th>Position</th>
-        <th>Salary</th>
-        <tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>Bill Gates</td>
-            <td>Founder Microsoft</td>
-            <td>1000</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Steve Jobs</td>
-            <td>Founder Apple</td>
-            <td>1200</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Larry Page</td>
-            <td>Founder Google</td>
-            <td>1100</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Mark Zuckerberg</td>
-            <td>Founder Facebook</td>
-            <td>1300</td>
-        </tr>
-    </tbody>
-    <tfoot>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>4600</td>
-        </tr>
-</table> -->
-<!-- <p>&copy; 2020 data</p> -->
 </html>
