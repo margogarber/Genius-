@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    flex-basis: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    padding: 10px;
+    border: 6px solid darkred;
+    margin: 10px;
+    
+}
+
